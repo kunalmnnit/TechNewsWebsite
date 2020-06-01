@@ -4,7 +4,7 @@ import 'package:myApp/models/article_model.dart';
 
 class APIService {
   final String _baseUrl = 'api.nytimes.com';
-  static const String API_KEY = 'gwwLpchHhDGsD2UWWRjih8rdSJirzR2q';
+  static const String API_KEY = 'YOUR_API_KEY';
   Future<List<Article>> fetchArticlesBySection(String section) async {
     Map<String, String> parameters = {
       'api-key': API_KEY,
