@@ -1,4 +1,4 @@
-# myApp
+# TechNewsWebsite
 
 A new Flutter project.
 
